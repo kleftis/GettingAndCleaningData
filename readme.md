@@ -10,20 +10,29 @@ run_analysis.R does the following
 
 Variables
 
-testdata: data set X_test.txt
+       testdata: data set X_test.txt
+
    testactivity: data set y_test.txt
+   
     testsubject: data set subject_test.txt
+    
       traindata: data set X_train.txt
+      
   trainactivity: data set y_train.txt
+  
    trainsubject: data set subject_train.txt
+   
        features: data set features.txt
+       
  activitylabels: data set activity_labels.txt
+ 
        trainall: data set from merging traindata, trainactivity and trainsubject
+       
         testall: data set from merging testdata, testactivity and testsubject
+        
   alldatatoextr: data set from merging trainall and testall
-        alldata: data set created by keeping the columns of alldatatoextr that 
-                 represent the average or the mean value of a variable plus the
-                 activity and subject columns
+  
+        alldata: data set created by keeping the columns of alldatatoextr that represent the average or the mean value of a variable plus the activity and subject columns
  activitynumber: vector with the numbers that represent an activity
    activitychar: character vector with the activities
     tidysubject: tidy dataset with the average values for each variable for each
