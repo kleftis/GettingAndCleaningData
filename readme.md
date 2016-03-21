@@ -32,7 +32,7 @@ Procedure
 2. Set the column names to be descriptive names.
    a. Read the features from features.txt and rename the columns of traindata and
       testdata replacing to each column the corresponded feature.
-   b. Rename column V1 in trainsubject, testsubject and trainactivity, testactivity       to subject and activity respectively.
+   b. Rename column V1 in trainsubject, testsubject and trainactivity, testactivity to subject and activity respectively.
 3. Merges the training and the test sets to create one data set.
 4. Extracts the measurements on the mean and standard deviation for each
    measurement and the columns subject, activity.
