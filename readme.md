@@ -14,30 +14,19 @@ Variables
        testactivity: data set y_test.txt
        testsubject: data set subject_test.txt
        traindata: data set X_train.txt
-      
-  trainactivity: data set y_train.txt
-  
-   trainsubject: data set subject_train.txt
-   
+       trainactivity: data set y_train.txt
+       trainsubject: data set subject_train.txt
        features: data set features.txt
-       
- activitylabels: data set activity_labels.txt
- 
+       activitylabels: data set activity_labels.txt
        trainall: data set from merging traindata, trainactivity and trainsubject
-       
-        testall: data set from merging testdata, testactivity and testsubject
-        
-  alldatatoextr: data set from merging trainall and testall
-  
-        alldata: data set created by keeping the columns of alldatatoextr that represent the average or the mean value of a variable plus the activity and subject columns
- activitynumber: vector with the numbers that represent an activity
-   activitychar: character vector with the activities
-    tidysubject: tidy dataset with the average values for each variable for each
-                 subject
-   tidyactivity: tidy dataset with the average values for each variable for each
-                 activity
-           tidy: data set with the average of each variable for each activity and
-                 each subject
+       testall: data set from merging testdata, testactivity and testsubject
+       alldatatoextr: data set from merging trainall and testall
+       alldata: data set created by keeping the columns of alldatatoextr that represent the average or the mean value of a variable plus the activity and subject columns
+       activitynumber: vector with the numbers that represent an activity
+       activitychar: character vector with the activities
+       tidysubject: tidy dataset with the average values for each variable for each subject
+       tidyactivity: tidy dataset with the average values for each variable for each activity
+       tidy: data set with the average of each variable for each activity and each subject
 Procedure
 1. Load the required data sets in R using read.table
 2. Set the column names to be descriptive names.
