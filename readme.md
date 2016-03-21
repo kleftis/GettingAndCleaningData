@@ -11,12 +11,9 @@ run_analysis.R does the following
 Variables
 
        testdata: data set X_test.txt
-
-   testactivity: data set y_test.txt
-   
-    testsubject: data set subject_test.txt
-    
-      traindata: data set X_train.txt
+       testactivity: data set y_test.txt
+       testsubject: data set subject_test.txt
+       traindata: data set X_train.txt
       
   trainactivity: data set y_train.txt
   
