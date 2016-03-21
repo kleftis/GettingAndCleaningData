@@ -28,6 +28,7 @@ Variables
        tidyactivity: tidy dataset with the average values for each variable for each activity
        tidy: data set with the average of each variable for each activity and each subject
 Procedure
+
 1. Load the required data sets in R using read.table
 2. Set the column names to be descriptive names.
    a. Read the features from features.txt and rename the columns of traindata and
