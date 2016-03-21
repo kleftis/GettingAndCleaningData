@@ -9,7 +9,7 @@ run_analysis.R does the following
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Variables
-       testdata: data set X_test.txt
+testdata: data set X_test.txt
    testactivity: data set y_test.txt
     testsubject: data set subject_test.txt
       traindata: data set X_train.txt
