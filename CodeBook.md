@@ -100,6 +100,7 @@ Except subject and activity variables the rest variables represents a feature th
 3. Signals were obtained from body linear acceleration and angular velocity
    denoted by jerk signals were obtained from body linear acceleration and
    angular velocity.
+
 4. Letters "x", "y", "z" at the end of each variable indicate the direction of the
    three-axial raw signal.
 5. The "mean" and the "std" in a feature, represent that the feuture represents
